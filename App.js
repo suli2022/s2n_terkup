@@ -37,6 +37,12 @@ export default function App() {
         <Text style={styles.buttonText}>Számít</Text>
       </TouchableHighlight>
 
+
+      <Text>Térfogat</Text>
+      <TextInput 
+      style={styles.inputField}
+      value={volume}/>      
+
       <StatusBar style="auto" />
     </View>
   );
